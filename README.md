@@ -3,11 +3,11 @@
 > Predictive Analytics Group Project | Academic Year 2025–26
 
 ## Team Members
-| Name | Role | GitHub |
-|------|------|--------|
-| Fidal Govind | Member A — Problem definition, preprocessing, TF-IDF, explainability, README | @fidal |
-| Arjun S | Member B — Data loading, EDA, Naive Bayes & SVM, Streamlit deployment | @arjun |
-| Anu Gopal | Member C — Feature selection, LSTM, model evaluation, GitHub profiles | @anu |
+| Name | Role |
+|------|------|
+| Fidal Govind | Member A — Problem definition, preprocessing, TF-IDF, explainability, README |
+| Arjun S | Member B — Data loading, EDA, Naive Bayes & SVM, Streamlit deployment |
+| Anu Gopal | Member C — Feature selection, LSTM, model evaluation, GitHub profiles |
 
 ---
 
@@ -58,15 +58,15 @@ Raw Emails (.txt)
 
 | Stage | Description | Owner |
 |-------|-------------|-------|
-| 1 | Problem Definition & Literature Review | Fidal |
-| 2 | Data Collection & Understanding | Arjun + Anu |
-| 3 | Preprocessing & Cleaning | Fidal |
-| 4 | Exploratory Data Analysis | Arjun |
-| 5 | Feature Engineering & Selection | Fidal + Anu |
-| 6 | Model Building & Training | Arjun (NB, SVM) + Anu (LSTM) |
-| 7 | Model Evaluation & Comparison | Anu |
-| 8 | Model Interpretation | Fidal |
-| 9 | Deployment (Streamlit) | Arjun |
+| 1 | Problem Definition & Literature Review | Fidal Govind |
+| 2 | Data Collection & Understanding | Arjun S + Anu Gopal|
+| 3 | Preprocessing & Cleaning | Fidal Govind |
+| 4 | Exploratory Data Analysis | Arjun S |
+| 5 | Feature Engineering & Selection | Fidal Govind + Anu Gopal |
+| 6 | Model Building & Training | Arjun S (NB, SVM) + Anu Gopal(LSTM) |
+| 7 | Model Evaluation & Comparison | Anu Gopal |
+| 8 | Model Interpretation | Fidal Govind |
+| 9 | Deployment (Streamlit) | Arjun s |
 | 10 | Documentation | All |
 
 ---
