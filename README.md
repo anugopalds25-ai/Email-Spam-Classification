@@ -1,9 +1,10 @@
 # 📧 Email Spam Classification using NLP & Machine Learning
 
 **Course:** Predictive Analytics (Academic Year 2025-26)  
-**Team Members:** * [Your Name] - Member A (Coordinator)  
-* [Teammate 2 Name] - Member B  
-* [Teammate 3 Name] - Member C  
+**Team Members:** 
+* Fidal Govind - Member A
+* Arjun S - Member B  
+* Anu Gopal - Member C  
 
 ---
 
