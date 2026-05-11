@@ -4,7 +4,7 @@
 
 ## Team Members
 | Name 
-|------|------|
+
 | Fidal Govind | 
 | Arjun S | 
 | ANU GOPAL V |
