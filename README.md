@@ -3,7 +3,6 @@
 > Predictive Analytics Group Project | Academic Year 2025–26
 
 ## Team Members
-| Name 
 
 | Fidal Govind | 
 | Arjun S | 
