@@ -47,10 +47,10 @@ def transform_text(text):
     return " ".join(y)
 
 # Load TF-IDF Vectorizer
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
+tfidf = pickle.load(open('models/vectorizer.pkl', 'rb'))
 
 # Load SVM Model
-model = pickle.load(open('svm_model.pkl', 'rb'))
+model = pickle.load(open('models/svm_model.pkl', 'rb'))
 
 # Streamlit Title
 st.title("Email Spam Classifier")
