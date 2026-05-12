@@ -119,16 +119,6 @@ From the exploratory analysis, several important insights were identified:
 
 The EDA phase helped guide preprocessing and model selection strategies used later in the project.
 
-## Spam vs Ham Distribution                              
-
-![Spam vs Ham Distribution](results/Spam%20vs%20Ham.png)
-
-## Message Length Distribution
-
-![Message Length Distribution](results/MLD.png)
-
-
-
 ## 2. Text Preprocessing
 
 Applied preprocessing techniques such as:
