@@ -334,9 +334,15 @@ Visualizations included:
 
 # Screenshots
 
-# Screenshots
+The following screenshots demonstrate the working of the deployed Email Spam Classification application developed using Streamlit.
+
+The application allows users to enter an email message and instantly predicts whether the message is Spam or Ham using the trained Support Vector Machine (SVM) model.
+
+---
 
 ## Application Homepage
+
+The homepage provides a simple and user-friendly interface where users can enter email content for classification.
 
 ![Homepage](screenshots/Homepage.png)
 
@@ -344,11 +350,15 @@ Visualizations included:
 
 ## Spam Prediction Result
 
+This screenshot demonstrates the successful detection of a spam email message by the trained machine learning model.
+
 ![Spam Prediction](screenshots/Spam%20result.png)
 
 ---
 
 ## Non-Spam Prediction Result
+
+This screenshot demonstrates the classification of a legitimate (ham) email message by the deployed application.
 
 ![Non Spam Prediction](screenshots/Not%20spam%20result.png)
 
