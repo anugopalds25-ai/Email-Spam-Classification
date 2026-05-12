@@ -74,6 +74,10 @@ Performed:
 - Message length analysis
 - Spam vs Ham visualization
 
+## Spam vs Ham Distribution
+
+![Spam vs Ham Distribution](results/Spam%20vs%20Ham.png)
+
 ## 2. Text Preprocessing
 
 Applied preprocessing techniques such as:
