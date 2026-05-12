@@ -181,26 +181,23 @@ Visualizations included:
 
 # Screenshots
 
+# Screenshots
+
 ## Application Homepage
 
-Stored in:
-```text
-screenshots/
-```
+![Homepage](screenshots/Homepage.png)
 
-## Spam Prediction Example
+---
 
-Stored in:
-```text
-screenshots/
-```
+## Spam Prediction Result
 
-## Non-Spam Prediction Example
+![Spam Prediction](screenshots/Spam%20result.png)
 
-Stored in:
-```text
-screenshots/
-```
+---
+
+## Non-Spam Prediction Result
+
+![Non Spam Prediction](screenshots/Not%20spam%20result.png)
 
 ---
 
