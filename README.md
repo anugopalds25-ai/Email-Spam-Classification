@@ -74,9 +74,15 @@ Performed:
 - Message length analysis
 - Spam vs Ham visualization
 
-## Spam vs Ham Distribution
+## Spam vs Ham Distribution                              
 
 ![Spam vs Ham Distribution](results/Spam%20vs%20Ham.png)
+
+## Message Length Distribution
+
+![Message Length Distribution](results/MLD.png)
+
+
 
 ## 2. Text Preprocessing
 
