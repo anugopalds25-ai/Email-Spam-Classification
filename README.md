@@ -169,6 +169,10 @@ Visualizations included:
 - Confusion Matrix
 - Model Comparison Graph
 
+ ## Confusion Matrix
+
+![Confusion Matrix](results/Confusion%20matrix.png) 
+
 ---
 
 # Screenshots
