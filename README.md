@@ -67,12 +67,57 @@ SpamAssassin Public Dataset
 
 The project follows a complete machine learning lifecycle workflow.
 
-## 1. Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
-Performed:
-- Class distribution analysis
-- Message length analysis
-- Spam vs Ham visualization
+Exploratory Data Analysis was performed to better understand the characteristics of the email dataset before preprocessing and model training.
+
+The analysis focused on:
+- Class distribution of spam and ham emails
+- Message length patterns
+- Dataset balance and text behavior
+
+---
+
+## Spam vs Ham Distribution
+
+The dataset contains both spam and legitimate (ham) email messages. 
+
+The visualization below shows the distribution of the two classes in the dataset.
+
+### Observation
+
+- Ham messages are significantly higher than spam messages.
+- The dataset is slightly imbalanced.
+- Despite imbalance, sufficient spam samples exist for training robust classifiers.
+
+![Spam vs Ham Distribution](results/Spam%20vs%20Ham.png)
+
+---
+
+## Message Length Distribution
+
+Message length analysis was performed to study the variation in email content size.
+
+### Observation
+
+- Spam messages generally contain longer and more promotional content.
+- Ham messages are comparatively shorter and conversational.
+- Message length acts as an informative feature during classification.
+
+![Message Length Distribution](results/MLD.png)
+
+---
+
+## EDA Summary
+
+From the exploratory analysis, several important insights were identified:
+
+- Spam emails often contain repetitive promotional patterns.
+- Ham emails are more naturally structured.
+- Text preprocessing is necessary to reduce noise and improve model performance.
+- Feature extraction techniques like TF-IDF can effectively capture important textual patterns for classification.
+
+The EDA phase helped guide preprocessing and model selection strategies used later in the project.
 
 ## Spam vs Ham Distribution                              
 
