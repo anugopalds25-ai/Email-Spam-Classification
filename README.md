@@ -173,6 +173,10 @@ Visualizations included:
 
 ![Confusion Matrix](results/Confusion%20matrix.png) 
 
+## Model Comparison Graph
+
+![Model Comparison](results/Model%20comparisons.png)
+
 ---
 
 # Screenshots
