@@ -137,19 +137,137 @@ to convert text into numerical feature vectors.
 
 ## 4. Model Training
 
-The following machine learning models were trained and evaluated:
+After preprocessing and TF-IDF feature extraction, the dataset was divided into training and testing sets using Scikit-learn.
 
+The transformed textual features were used to train multiple machine learning models for spam classification.
+
+---
+
+# Models Implemented
+
+The following machine learning algorithms were trained and compared:
+
+| Model | Description |
+|---|---|
+| Naive Bayes | Probabilistic classifier commonly used in NLP tasks |
+| Logistic Regression | Linear classification algorithm |
+| Support Vector Machine (SVM) | Margin-based supervised learning model |
+| Random Forest | Ensemble learning classifier using decision trees |
+
+---
+
+# Training Workflow
+
+The training process involved:
+- Splitting the dataset into training and testing data
+- Fitting machine learning models using TF-IDF vectors
+- Generating predictions on unseen testing data
+- Comparing model performances
+
+Scikit-learn libraries were used for model implementation and training.
+
+---
+
+# Feature Representation
+
+TF-IDF vectorization was used to convert textual email messages into numerical feature vectors suitable for machine learning algorithms.
+
+This helped models identify important spam-related textual patterns.
+
+---
+
+# Training Objective
+
+The main objective of the training phase was to identify the model that provides:
+- High accuracy
+- Better spam detection capability
+- Lower false classification rates
+- Stable performance on unseen data
+
+The trained models were later evaluated using multiple performance metrics.
+
+## 5. Model Evaluation
+
+After training the machine learning models, evaluation was performed to measure their effectiveness in classifying spam and legitimate email messages.
+
+Multiple evaluation metrics and visual analysis techniques were used to compare model performance.
+
+---
+
+# Evaluation Metrics Used
+
+The following metrics were used:
+
+- Accuracy Score
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+These metrics helped evaluate the classification capability of each machine learning model.
+
+---
+
+# Classification Report Analysis
+
+Classification reports were generated for:
 - Naive Bayes
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Random Forest
 
-## 5. Model Evaluation
+The reports measured:
+- Spam detection performance
+- False positive rates
+- Overall prediction quality
 
-Evaluation metrics used:
-- Accuracy Score
-- Classification Report
-- Confusion Matrix
+---
+
+# Confusion Matrix Analysis
+
+The confusion matrix analysis showed that the SVM model correctly classified most spam and ham messages with minimal prediction errors.
+
+Observations:
+- High true positive rate
+- Low false positive rate
+- Good spam detection capability
+- Strong generalization on testing data
+
+---
+
+# Model Comparison Analysis
+
+The performance comparison between all trained models showed that:
+
+- Support Vector Machine (SVM) achieved the highest accuracy
+- Logistic Regression and Naive Bayes also performed effectively
+- Random Forest produced comparatively lower performance for this NLP classification task
+
+---
+
+# Final Model Selection
+
+Based on the evaluation metrics and overall prediction performance:
+
+## Selected Model:
+Support Vector Machine (SVM)
+
+### Reasons for Selection
+
+- Highest accuracy among tested models
+- Better classification consistency
+- Lower misclassification rate
+- Strong performance on TF-IDF textual features
+
+The trained SVM model was selected for deployment in the Streamlit web application.
+
+---
+
+# Evaluation Summary
+
+The evaluation phase demonstrated that machine learning models combined with NLP preprocessing can effectively classify spam emails with high reliability and accuracy.
+
+The deployed application successfully performs real-time spam prediction using the trained SVM classifier.
 
 ## 6. Deployment
 
