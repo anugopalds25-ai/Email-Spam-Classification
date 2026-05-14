@@ -1,6 +1,6 @@
 # Email Spam Classification Using NLP and Machine Learning
 
-Predictive Analytics Group Project | Academic Year 2025–26
+Predictive Analytics Group Project | Academic Year 2025–2026
 
 ---
 
