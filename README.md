@@ -1,4 +1,4 @@
-# Exploratory Data Analysis (EDA) - Email Spam Classifier
+# Exploratory Data Analysis (EDA)
 
 ## Overview
 
