@@ -1,4 +1,4 @@
-# Model Training and Evaluation - Email Spam Classifier
+# Model Training and Evaluation
 ---
 
 ## Objectives
