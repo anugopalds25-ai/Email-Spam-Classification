@@ -1,4 +1,4 @@
-# Email Spam Classification Using NLP and Machine Learning
+# Exploratory Data Analysis (EDA)
 
 Predictive Analytics Group Project | Academic Year 2025–26
 
@@ -76,7 +76,10 @@ The analysis focused on:
 - Message length patterns
 - Dataset balance and text behavior
 
----
+### 2. Class Distribution
+Visualized the number of:
+- Spam messages
+- Ham messages
 
 ## Spam vs Ham Distribution
 
