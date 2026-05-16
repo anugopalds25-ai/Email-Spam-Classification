@@ -1,4 +1,4 @@
-# Email Spam Classification Using NLP and Machine Learning
+# Exploratory Data Analysis (EDA)
 
 Predictive Analytics Group Project | Academic Year 2025–2026
 
@@ -61,7 +61,8 @@ SpamAssassin Public Dataset
 - Contains spam and non-spam messages
 - Used for NLP preprocessing and ML model training
 
----
+### 1. Lowercase Conversion
+Convert all text into lowercase.
 
 # Methodology
 
@@ -76,7 +77,10 @@ The analysis focused on:
 - Message length patterns
 - Dataset balance and text behavior
 
----
+### 2. Class Distribution
+Visualized the number of:
+- Spam messages
+- Ham messages
 
 ## Spam vs Ham Distribution
 
@@ -92,7 +96,8 @@ The visualization below shows the distribution of the two classes in the dataset
 
 ![Spam vs Ham Distribution](results/Spam%20vs%20Ham.png)
 
----
+### 3. Tokenization
+Split sentences into individual words.
 
 ## Message Length Distribution
 
